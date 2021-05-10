@@ -1,0 +1,15 @@
+{
+  "name": "Background Message",
+  "version": "0.01",
+  "description": "Listen in the background",
+  "background":{
+    "page": "background.html",
+    "persistent": false
+  },
+	"content_scripts": [{
+		"matches": ["<all_urls>"],
+		"js": ["contentScript.js"],
+		"run_at": "document_end"
+	}],
+  "manifest_version": 2
+}

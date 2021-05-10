@@ -1,0 +1,10 @@
+{
+  "name": "Popout",
+  "version": "0.01",
+  "description": "Popout Music",
+	"browser_action": {
+		"default_title": "Popout HTML",
+		"default_popup": "popout.html"
+	},
+  "manifest_version": 2
+}
